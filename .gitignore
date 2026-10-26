@@ -1,0 +1,9 @@
+# Segredos e dados locais
+.env
+state.json
+state.json.tmp
+monitor.log
+monitor.pid
+stop.signal
+
+node_modules/

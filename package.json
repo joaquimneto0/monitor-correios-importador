@@ -1,0 +1,14 @@
+{
+  "name": "monitor-correios-importador",
+  "version": "1.0.0",
+  "description": "Monitoramento automático do Portal Minhas Importações (Correios) com alertas no Telegram",
+  "type": "module",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "check-once": "node monitor.js --once",
+    "install-task": "powershell -ExecutionPolicy Bypass -File ./install-task.ps1",
+    "uninstall-task": "powershell -ExecutionPolicy Bypass -File ./uninstall-task.ps1",
+    "stop": "powershell -ExecutionPolicy Bypass -File ./stop-monitor.ps1"
+  }
+}
